@@ -21,7 +21,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  /* width: 100%; */
   /* max-height: 50px; */
 }
 
@@ -30,7 +30,13 @@ body{
   font-family: "Lato",sans-serif;
   max-width: 100%;
   overflow-x: hidden;
-
+  display: block;
+  /* border: 1px solid red; */
+  /* background-color: red; */
+}
+html{
+  /* border: 3px solid purple; */
+  /* background-color: purple; */
 }
 
 
@@ -40,7 +46,7 @@ font-size: 30px;
 font-family: 'Special Elite', cursive;
 }
 
-center {
+/* center {
   position: absolute;
   font-size: 17px;
   font-family: 'Trebuchet MS',bold;
@@ -61,17 +67,18 @@ center {
    height: 150%;
    vertical-align: bottom;
    padding: 380px;
-}
+} */
 
 #headingimage{
    position:absolute;
-   margin-left: -20%;
+   margin-left: -225px;
    /* top:20px;
    left:500px; */
    left: 55%;
-   width:40%;
+   width:450px;
+
    z-index: -1;
-   height: 40%;
+   /* height: 40%; */
 
 }
 .pageheading{
@@ -79,18 +86,18 @@ center {
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 
 
 #titleheading{
 position:absolute;
-left: 55%;
-margin-left: -20%;
-/* top:105px;
-left:500px; */
-width:40%;
-height:50%;
+/* left: 55%; */
+top: 50px;
+margin-left: -150px;
+top:250px;
+left:50%;
+width:450px;
+/* height:50%; */
 }
 
 #levislogostyle{
@@ -114,17 +121,24 @@ height:50%;
 }
 .row{
   /* margin-left: 100px; */
+  /* border: 2px solid black; */
+  height:100%;
+  /* background-color: black; */
 }
 .column{
   float:left;
   padding:10px;
+  /* border: 2px solid blue;
+  background-color: blue; */
 }
 
 #clothingstyle{
   width:60%;
-  position: absolute;
-  top:500px;
-  left:400px;
+  /* top:500px;
+  left:400px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
 }
 
 /* img {
@@ -147,6 +161,8 @@ background-color: black;
 border: 5px solid white;
 overflow-x: hidden;
 padding-left: 0px;
+top:0;
+left:0;
 }
 .sidebar a {
 padding: 6px 8px 6px 16px;
@@ -160,13 +176,17 @@ color: #f1f1f1;
 }
 
 .main {
-/* margin-left: 160px; /* Same as the width of the sidenav */ */
-padding: 0px 10px;
+/* margin-left: 160px; /* Same as the width of the sidenav */
+/* padding: 0px 10px; */
 margin-left: 210px;
 /* margin-right: 10px; */
 width: 80%;
 /* width:calc(100%-180px); */
 /* border: solid 1px black; */
+top:0;
+left:180px;
+/* background-color: pink; */
+height:100%;
 }
 
 .logoimage{
@@ -181,8 +201,14 @@ width: 80%;
   float:right;
 
 }
+.below_heading{
+  margin-top:400px;
+}
 /*
 @media screen and (max-height: 450px) {
 .sidebar {padding-top: 15px;}
 .sidebar a {font-size: 18px;}
 } */
+.centerText{
+  text-align: center;
+}
