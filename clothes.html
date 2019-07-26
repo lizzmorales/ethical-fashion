@@ -1,65 +1,71 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <style>
-    body {font-family: "Lato", sans-serif;}
-
-    .sidebar {
-      height: 100%;
-      width: 160px;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      padding-top: 16px;
-    }
-
-    .sidebar a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 20px;
-      color: #818181;
-      display: block;
-    }
-
-    .sidebar a:hover {
-      color: #f1f1f1;
-    }
-
-    .main {
-      margin-left: 160px; /* Same as the width of the sidenav */
-      padding: 0px 10px;
-    }
-
-    @media screen and (max-height: 450px) {
-      .sidebar {padding-top: 15px;}
-      .sidebar a {font-size: 18px;}
-    }
-    </style>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+<head>
 
 
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" href="fashion.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Clothes</title>
+
+</head>
 
 
+<body>
 
-  <body>
-    <div class="sidebar">
-      <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a href="#services"><i class="fa fa-fw fa-user"></i> About Us</a>
-      <a href="file:///Users/gwc/Desktop/clothes.html"><i class="fa fa-fw fa-user"></i> Clothes </a>
-
-      <a href="#contact"><i class="fa fa-fw fa-user"></i>Makeup</a>
-      <a href="#contact"><i class="fa fa-fw fa-user"></i>Looks</a>
-      <a href="#contact"><i class="fa fa-fw fa-user"></i>Other Ways</a>
+  <div class="row">
+    <div class="column sidebar">
+      <a href="fashion.html"><i  class='fas'>&#xf015;</i> Home</a>
+      <a href="aboutus.html"><i class='far'>&#xf2bb;</i> About Us</a>
+      <a href="clothes.html"><i  class='fas'>&#xf553;</i> Clothes </a>
+      <a href="makeup.html"><i  class='fas'>&#xf1fc;</i> Makeup </a>
+      <a href="looks.html"><i  class='fas'>&#xf0d0;</i> Looks</a>
+      <a href="otherways.html"><i  class='far'>&#xf14e;</i> Other Ways</a>
     </div>
 
-    <div class="main">
+    <div class="column main">
 
-    <h1> clothes </h1>
+      <div class="logoimage">
+      <img src="logo.png">
+    </div>
 
-  </body>
+<div class="pageheading">
+        <img id= "headingimage" src="clothing.jpg">
+        <img id="titleheading" src="clothes.png">
+
+      </div>
+
+      <center>Here are a couple of clothing brands that are ethical. </center>
+
+      <div class="row">
+
+
+        <table id="clothingstyle">
+          <tr>
+            <th>Brands Logos</th>
+            <th>More about the brands</th>
+          </tr>
+          <tr>
+            <td>
+              <img id= "levislogostyle"src="llogo.png">
+              Levi's
+            </td>
+            <td>info mkbiuyvubli</td>
+          </tr>
+
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
 </html>
